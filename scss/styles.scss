@@ -1,0 +1,92 @@
+$backgroundcolor:pink;
+$color: rgb(240, 232, 232);
+$color:black !default;
+$rosaFuerte:lightpink;
+$ancho:1000px;
+body{
+    background-image: linear-gradient(pink,$color);
+}
+.movimiento{
+    width: 350px;
+    height: 300px;
+    transition: height 2s, width 1s; 
+}
+     
+.movimiento:hover {
+    height: 350px; width: 350px;
+ }
+.form{ 
+ width: $ancho/2;
+ margin: 0 auto;
+
+}
+.articulo{
+    background-color: $color;
+}
+.articulo__parrafo{
+    font-size: 24px;
+}
+
+.footer{
+    background-color: $color;
+}
+.footer__texto{
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+    list-style-type: none;
+}
+.footer__texto--over:hover{
+   color:hotpink;
+}
+.table{
+    border:2px solid black;
+    background-image: linear-gradient(pink, white);
+    color: black;
+    width: $ancho/1-30;
+    margin: 0 auto;
+    
+}
+ 
+/* .alinear{
+text-align:center */
+.box{
+    width: 250px;
+    margin: 2px 2px 2px 2px;
+}
+
+.article{
+    background-color:$rosaFuerte;
+    
+
+}
+
+.header{
+    background-color:pink;
+}
+
+.section{
+    background-color:$rosaFuerte;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 300px; 
+    width: $ancho/1-10;
+    margin: 0 auto;
+}
+.hijo{
+    border:2px solid black;
+    background-image: linear-gradient(pink, white);
+}
+#grilla{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(1fr);
+    border: 4px;
+    
+}
+.galeria{
+   align-items: center;
+  
+}
