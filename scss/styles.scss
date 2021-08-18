@@ -5,6 +5,33 @@ $rosaFuerte:lightpink;
 $ancho:1000px;
 body{
     background-image: linear-gradient(pink,$color);
+    font-family:'Times New Roman', Times, serif ;
+
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.imagenes{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+.imagenesProductos{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+}
+.video{
+    width: 500px;
+    height: 315px;
+    padding: 20px;
+}
+.redes{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
 }
 .movimiento{
     width: 350px;
@@ -28,7 +55,7 @@ body{
 }
 
 .footer{
-    background-color: $color;
+    background-color: $backgroundcolor;
 }
 .footer__texto{
     text-decoration: none;
@@ -90,3 +117,16 @@ text-align:center */
    align-items: center;
   
 }
+@media only screen and (min-width: 768px) {
+    body {
+           width: 100%;
+           height: 100%;
+      }
+}
+@media only screen and (min-width: 1024px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
+
